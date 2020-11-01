@@ -1,68 +1,74 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [Simple React Admin template](https://react-admin-template.netlify.com/) :boom: :ok_hand: :star:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b9dc8cf2-fb7a-4def-824e-42a370a36df5/deploy-status)](https://app.netlify.com/sites/react-admin-template/deploys)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://react-admin-template.netlify.com/)
 
-## Available Scripts
+Completly **free** simple admin template starter for React. 
 
-In the project directory, you can run:
+Only **core functionalities** in order to avoid huge refactor/cleaning. 
 
-### `yarn start`
+**Ready to start new project**, small amount of dependencies, easy configuration, modern and fast. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Created by https://foreach.pl trainers for training participants. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**Check also Cheatsheets:**
 
-### `yarn test`
+[React](https://github.com/delprzemo/react-cheatsheet) :star:
+[Angular](https://github.com/delprzemo/angular-cheatsheet) :star:
+[TypeScript](https://github.com/delprzemo/typescript-cheatsheet) :star:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![image](https://i.imgur.com/6T37H6V.jpg)](https://react-admin-template.netlify.com/)
+<img src="https://i.imgur.com/q607C0f.jpg." data-canonical-src="https://i.imgur.com/q607C0f.jpg" width="400" />
+<img src="https://i.imgur.com/a2NUwFX.jpg." data-canonical-src="https://i.imgur.com/q607C0f.jpg" width="245" />
 
-### `yarn build`
+## Demo
+[Click here for a demo](https://react-admin-template.netlify.com/) 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+- React (without jQuery etc.)
+- TypeScript
+- React Hooks
+- Redux
+- Responsive (adjusted to mobile devices)
+- React-router-dom
+- Bootstrap 4
+- Modern, clean, readable layout
+- Authentication
+- **Clean, easy, ready to start new project**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Pricing
+It's completly **free** (no commercial versions)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Quick start
 
-### `yarn eject`
+#### 1. Get the latest version
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Clone repository
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```shell
+$ git clone https://github.com/delprzemo/react-admin-template.git React-Admin-Template
+$ cd React-Admin-Template
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### 2. Run `npm install`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm install will install all modules listed as dependencies in [package.json](package.json) file.
 
-## Learn More
+#### 3. Run `npm run start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+It will run application in http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+#### 4. Run `npm run build`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Builds the production version of app and put it into build folder. Now you can use these files to perform real production deployment. 
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Contribute
 
-### Making a Progressive Web App
+Contributions are always welcome!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## License
 
-### Advanced Configuration
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+To the extent possible under law, [Przemek Struciński](https://foreach.pl) has waived all copyright and related or neighboring rights to this work.
